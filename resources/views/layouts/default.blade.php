@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-  <title>Weibo App</title>
+  <title>
+    @yield('title','Weibo App') -- Laravel新手入门教程
+  </title>
 </head>
 <body>
 @yield('content')
